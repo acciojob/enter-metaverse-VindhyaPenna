@@ -8,7 +8,7 @@ let text = document.querySelector("#status");
 			finText.setAttribute("id","status")
         finText.innerHTML = "Entered Metaverse";
         text.remove();
-        let parent = document.getElementById("h1#status");
+        let parent = document.getElementById("body");
         parent.insertBefore(finText,btn)
         // console.log(parent.children)
         })
